@@ -1,0 +1,103 @@
+/* Your Website Styles */
+body{
+  background-color: #006666;
+}
+
+
+/* Gallery Stying */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h1{
+  padding-left:40%;
+  display:inline;
+  font-family: 'PT Sans', sans-serif;
+  color:#006666;
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 600px;
+  overflow: hidden;
+  text-align: center;
+  background: #A3C2A3;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -.7em;
+  width: 100%;
+  max-width:100%;
+  text-align: center;
+}
+
+.gallery .item img{
+  top:100px;
+
+}
+img{
+  width:100%;
+  max-width:960px;
+  max-height: 1287px;
+  position:relative;
+
+}
+
+.gallery .controls img {
+  opacity:.5;
+  width:80%;
+  max-width:100px;
+  border-radius:50%;
+  border: 5px solid #CAF547;
+  transition:border-color 1s, width .5s, opacity .4s;
+}
+
+.gallery .controls img:hover {
+  opacity: 1;
+  width:82%;
+  border-color: #46c8f5;
+  }
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 1em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color 1s;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.gallery .item{
+  transition:opacity 2s;
+}
+
+#top img{
+  padding-left: 2%;
+  padding-top:.1em;
+  width:5em;
+}
+
+
+#top{
+  width:100%;
+  height:5em;
+  background:#CAF547;
+  position:relative;
+}

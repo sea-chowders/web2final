@@ -35,6 +35,7 @@ h1{
 */
 .gallery {
   position: relative;
+  margin-top:1em;
 }
 .gallery .item {
   position:absolute;
